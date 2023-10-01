@@ -1,7 +1,8 @@
-name:hola-mundo
-on:[push]
-jobs:
-  hola-mundo:
+name: hola-mundo
+on :
+ push
+jobs: 
+ hola-mundo: 
     runs-on: Ubuntu-latest
     steps:
     - name: Verificar repositorio
