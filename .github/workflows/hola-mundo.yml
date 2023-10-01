@@ -1,6 +1,6 @@
 name: hola-mundo
 on :
- push
+ push:
 jobs: 
  hola-mundo: 
     runs-on: Ubuntu-latest
@@ -9,5 +9,5 @@ jobs:
       uses: actions/checkout@v3
     - name: 
       run: echo "USERNAME=${{ github.actor}}# >> $GITHUB_ENV
-    - name:Coorrer script 
-      run: python main.py  #ajustar nombre
+    - name: Coorrer script 
+      run:python main.py  #ajustar nombre
