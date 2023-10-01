@@ -1,6 +1,5 @@
 name:hola-mundo
-on:
-  push:
+on:[push]
 jobs:
   ejecutar-programa: hola-mundo
     runs-on:Ubuntu-latest
