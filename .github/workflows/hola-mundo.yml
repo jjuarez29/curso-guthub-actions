@@ -6,7 +6,7 @@ jobs:
     runs-on:Ubuntu-latest
     steps:
     - name: Verificar repositorio
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: 
       run: echo "USERNAME=${{ github.actor}}# >> $GITHUB_ENV
     - name:Coorrer script 
