@@ -1,7 +1,7 @@
 name:hola-mundo
 on:[push]
 jobs:
-    Ejecutar-programa: hola-mundo
+  hola-mundo:
     runs-on: Ubuntu-latest
     steps:
     - name: Verificar repositorio
