@@ -1,0 +1,18 @@
+name:hola-mundo
+on:
+  push:
+    branches:
+      - main #ajustar a rama
+
+jobs:
+  ejecutar-programa: hola-mundo
+    runs-on:Ubuntu-latest
+    steps:
+    - name: Verificar repositorio
+      uses: actions/checkout@v2
+    - name:Configurar Pytho
+      uses: actions/setup-python@v2
+      with:
+        Python-version: 3.11 # Ajustar la version
+    - name: Ejecutar el programa main.py
+      run: python main.py  #ajustar nombre
