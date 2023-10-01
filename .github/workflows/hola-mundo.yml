@@ -1,8 +1,8 @@
 name:hola-mundo
 on:[push]
 jobs:
-  ejecutar-programa: hola-mundo
-    runs-on:Ubuntu-latest
+    Ejecutar-programa: hola-mundo
+    runs-on: Ubuntu-latest
     steps:
     - name: Verificar repositorio
       uses: actions/checkout@v3
